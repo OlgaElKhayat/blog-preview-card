@@ -1,0 +1,91 @@
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-size: 16px;
+  font-family: "Figtree", sans-serif;
+  letter-spacing: 0px;
+}
+
+.preview-card {
+  margin-top: 40px;
+  margin-left: 480px;
+  background-color: white;
+  width: 380px;
+  height: 520px;
+  border-radius: 18px;
+  border: 1px solid  hsl(0, 0%, 7%);
+  box-shadow: 8px 8px 0px hsl(0, 0%, 7%);
+  transition: box-shadow 0.6s;
+}
+
+.preview-card:hover {
+  box-shadow: 16px 16px 0px hsl(0, 0%, 7%);
+}
+
+.preview-card-img {
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.type {
+  background-color: hsl(47, 88%, 63%);
+  color: hsl(0, 0%, 7%);
+
+
+  margin-left: 18px;
+  margin-top: 18px;
+  padding: 4px 10px 4px 10px;
+  width: 57px;
+
+  font-size: 14px;
+  font-weight: bold;
+
+  border-radius: 3px;
+  line-height: 150%;
+
+}
+
+.date {
+  color:  hsl(0, 0%, 7%);
+  font-size: 14px; 
+  margin-left: 18px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 18px;
+  margin-top: 10px;
+  transition: color 0.6s;
+}
+
+.title:hover{
+  color: hsl(47, 88%, 63%);
+  cursor: pointer; 
+}
+
+.intro {
+  color: hsl(0, 0%, 42%);
+  line-height: 150%;
+  font-size: 16px;
+  margin-left: 18px;
+}
+
+
+.member-container {
+  display: flex;
+  margin-left: 18px;
+  background-color: white;
+}
+
+.member-img {
+  object-fit: contain;
+  width: 35px;
+}
+
+.member-name {
+  color:hsl(0, 0%, 7%);
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 14px;
+}
