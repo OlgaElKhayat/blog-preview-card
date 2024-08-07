@@ -4,11 +4,13 @@ body {
   font-family: "Figtree", sans-serif;
   letter-spacing: 0px;
 
+  /* Assisted by @beowulf1958 */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  /* Assisted by @beowulf1958 */
 }
 
 .preview-card {
